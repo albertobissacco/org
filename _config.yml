@@ -1,0 +1,28 @@
+# Site info
+title: Alberto Bissacco
+description:
+url: "http://albertobissacco.org"
+
+# Build settings
+markdown: kramdown
+destination: public
+exclude: ["CNAME", "Rakefile", "README.md", "public"]
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: albertobissacco
+
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+    title: Articles
+
+
