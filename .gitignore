@@ -2,6 +2,7 @@
 _drafts/
 _site/
 _public/
+public/
 .sass-cache
 .jekyll-metadata
 
